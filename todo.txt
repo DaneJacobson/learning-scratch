@@ -17,6 +17,10 @@ S4 (Mamba series)
 GANs
 Diffusers (DiT and whatever the fuck SORA is)
 
+Deep Reinforcement Learning (DeepMind and OpenAI)
+- Alpha anything!
+- Spinning up in DRL from OpenAI
+
 Biology/Materials Papers:
 AlphaFold2
 
