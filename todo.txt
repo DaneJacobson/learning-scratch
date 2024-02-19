@@ -1,0 +1,27 @@
+Computer Vision
+VGGNet
+ResNet
+Faster R-CNN
+YOLO
+Mask R-CNN
+Densely Connected Convolutional Networks
+DeepLab
+EfficientNet
+
+Language Models
+Word2Vec
+LSTMs
+Attention is all you need
+S4 (Mamba series)
+
+GANs
+Diffusers (DiT and whatever the fuck SORA is)
+
+Biology/Materials Papers:
+AlphaFold2
+
+
+Non-Architecture Papers
+- Adam
+- Linear Algebra lol
+- Matrix Calculus lol
