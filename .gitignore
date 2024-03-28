@@ -2,3 +2,6 @@ __pycache__/
 data/
 runs/
 model_*
+
+.venv/
+.DS_Store

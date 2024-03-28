@@ -1,6 +1,9 @@
 """Implementation of VGGNet"""
 
+from PIL import Image
+
 import torch.nn as nn
+from torchvision import datasets, transforms, models
 
 class VGGNet_A(nn.Module):
 
@@ -66,4 +69,14 @@ class VGGNet_A(nn.Module):
     def forward(self, x):
         return self.net(x)
     
-    
+
+transform = transforms.Compose([
+    transforms.Resize(256),
+    transforms.CenterCrop(224),
+    # transforms.ToTensor(),
+    # transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+])
+
+training_set = datasets.ImageNet(root="./data", split="train", transform=transform)
+
+training_set[0].show()
