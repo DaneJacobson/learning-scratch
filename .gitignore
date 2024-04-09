@@ -5,3 +5,5 @@ model_*
 
 .venv/
 .DS_Store
+
+mlx_model/
