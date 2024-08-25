@@ -1,0 +1,1 @@
+Zero to Mastery book: https://www.learnpytorch.io/
