@@ -5,6 +5,10 @@ runs/
 model_*
 
 .venv/
+.vscode/
 .DS_Store
 
 mlx_model/
+
+# Rust
+target/
